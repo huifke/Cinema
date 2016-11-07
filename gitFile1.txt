@@ -1,3 +1,0 @@
---gitFile1.txt--
-
-First file in my own branch!
