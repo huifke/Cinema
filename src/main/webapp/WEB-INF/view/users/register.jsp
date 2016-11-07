@@ -14,6 +14,7 @@
 <spring:message code="user.birthDate" var="userBirthDate" />
 <spring:message code="user.country" var="userCountry" />
 <spring:message code="card.issuer" var="cardIssuer" />
+<spring:message code="card.number" var="cardNumber" />
 <spring:message code="form.save" var="labelSave" />
 <spring:message code="form.reset" var="labelReset" />
 
@@ -54,7 +55,7 @@
 		</fieldset>
 		
 		<fieldset>
-			<form:label path="creditCard.number">Broj kartice</form:label>
+			<form:label path="creditCard.number">${cardNumber}</form:label>
 				<form:input path="creditCard.number" />
 				<form:errors path="creditCard.number" cssClass="error" />
 		</fieldset>
