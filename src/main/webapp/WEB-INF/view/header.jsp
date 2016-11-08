@@ -30,7 +30,8 @@
 					<label for="password">${labelPassword}</label>
 					<input type="password" name="j_password" id="password"/>
 				</fieldset>
-				<input name="submit" type="submit" value="${labelLogin}" class="button"/>
+
+				<input type="submit" name="submit" value="${labelLogin}" class="button"/>
 				<a class="button" href="${urlRegister}">${labelRegister}</a>
 				<div class="languages">
 					<a href="${urlBos}"> <img alt="bos" src="${imageBosnia}" /></a> 
