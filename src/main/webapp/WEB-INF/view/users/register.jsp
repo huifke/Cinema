@@ -13,8 +13,13 @@
 <spring:message code="user.password" var="userPassword" />
 <spring:message code="user.birthDate" var="userBirthDate" />
 <spring:message code="user.country" var="userCountry" />
+<<<<<<< HEAD
 <spring:message code="card.issuer" var="cardIssuer" />
 <spring:message code="card.number" var="cardNumber" />
+=======
+<spring:message code="card.issuer" var="cardIssuer"/>
+<spring:message code="card.number" var="cardNumber"/>
+>>>>>>> huif
 <spring:message code="form.save" var="labelSave" />
 <spring:message code="form.reset" var="labelReset" />
 
