@@ -55,7 +55,7 @@
 					<security:authorize access="isAuthenticated()">
 						href="${movie.trailerUrl}"
 					</security:authorize>>
-					<img src="${urlPhoto}/${movie.id}" alt="${movie.name}"/>
+					<img src="${urlPhoto}/${movie.id}.jpg" alt="${movie.name}"/>
 				</a>
 				<security:authorize
 						access="isAuthenticated()">
